@@ -58,3 +58,27 @@ kbd {
   letter-spacing: 1px;
   color: yellow;
 }
+
+.stop-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  padding: auto;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 1px solid yellow;
+  border-radius: 6px;
+  width: 100px;
+  color: white;
+  background: rgba(1, 1, 0, 0.2);
+  text-shadow: 0 0 3px black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(109, 109, 8, 0.2);
+}
